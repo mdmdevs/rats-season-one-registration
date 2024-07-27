@@ -1,0 +1,46 @@
+/*
+@media only screen and (min-width: 320px) and (max-width: 479px){ ... }
+@media only screen and (min-width: 480px) and (max-width: 767px){ ... }
+@media only screen and (min-width: 768px) and (max-width: 991px){ ... }
+@media only screen and (min-width: 992px){ ... }
+*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav-bar {
+  background-color: rgb(61, 61, 61);
+  max-height: 50px;
+}
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+}
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.logo {
+  width: 100px;
+}
+.poster {
+  border-radius: 20px;
+}
+.message {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-justify: center;
+  background-color: rgb(174, 174, 174);
+  color: white;
+}
+.large {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.why {
+  font-size: 0.8rem;
+}
+footer {
+  background-color: grey;
+  bottom: 1px;
+}
